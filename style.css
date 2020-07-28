@@ -1,0 +1,77 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: url(111.jpg);
+}
+
+h1 {
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+
+.container {
+	width: 1000px;
+	height: 650px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(111.jpg);
+	margin: 20px auto;
+}
+
+.calculator {
+	margin: 0 auto;
+	max-width: 350px;
+	text-align: center;
+	margin-top: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	font-size: 0;
+	background-color: white;
+	border-radius: 20px;
+}
+
+#display {
+	border: 5px;
+}
+
+.card:hover {
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.calculator-head #display {
+	height: 100px;
+	width: 335px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: right;
+	padding: 0 5px;
+	letter-spacing: 2px;
+
+	border-radius: 20px 20px 0px 0px;
+}
+
+.btn {
+	width: 87px;
+	height: 70px;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #1f2326;
+	color: white;
+	border-radius: 5px;
+}
+
+#clear {
+	width: 176px;
+	background-color: #830818;
+}
+
+#delete {
+	background-color: #f08080;
+}
+
+.btn-style {
+	background-color: #5f4886;
+}
+
+.btn:hover {
+	background: #4d4d4d;
+	color: black;
+}
